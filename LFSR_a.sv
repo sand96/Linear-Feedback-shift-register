@@ -12,7 +12,6 @@ README:		In order to use this program, two command is needed.
 			vsim tb -c -do "run -all"
 			Then check all the result in the output file.
 ------------------------------------------------------------------------------*/
-//try again
 module LFSR_a (clk, reset,initial_sig,LFSR_reg);
 input clk; //clock cycle to shift register
 input reset; //signal to reset the circuit
